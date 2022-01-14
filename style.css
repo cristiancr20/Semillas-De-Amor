@@ -139,6 +139,17 @@ h1{
   padding: 10px;
 }
 
+.content__audio{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  background-color: #242424;
+}
+
+/* Cambiar color de fondo del reproductor */
+.entry-content .mejs-container .mejs-controls {
+  background: #932;
+}
 
 @media (max-width: 1230px) {
   .content {
