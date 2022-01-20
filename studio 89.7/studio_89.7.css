@@ -104,11 +104,18 @@ body {
 }
 
 
+.content__principal{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
 /* imagen emision  */
 .cont_emision {
-    width: 250px;
-    height: 250px;
-    margin: 30px auto;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
 }
 
 .cont_emision .emi {
@@ -189,11 +196,11 @@ body {
 }
 
 .content__identologico {
-    width: 80%;
-    margin:20px  auto;
+    width: 100%;
+    margin:auto;
 }
 .content__identologico ol{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -340,6 +347,16 @@ footer .content__fotter .social__media .icons a:hover i {
         margin: 20px auto;
     }
 
+    .content__principal{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .content__principal .cont_emision{
+        width: 90%;
+        margin: auto;
+    }
+
     footer .content__fotter {
         width: 100%;
         margin: auto;
@@ -383,6 +400,9 @@ footer .content__fotter .social__media .icons a:hover i {
         margin: 20px auto;
     }
 
+    .content__identologico h1{
+        font-size: 28px;
+    }
 
 }
 
