@@ -69,15 +69,22 @@
     <div class="cont_emision">
         <div class="emi">
             <div class="emition">
-                <div class="circle"></div>
-                <p>Live</p>
-            </div>
-        </div>
-        <div class="audio">
-            <audio  src="http://stream.zeno.fm/vkn46n2u4f0uv"   type="audio/mpeg" preload="preload" controls style="width: 100%" autoplay='autoplay' ></audio>
-        </div>
-    </div>
+                <div class="player__btn" id="play">
+                    <i class='bx bx-play play-btn'></i>
+                    <i class='bx bx-pause pause-btn hide'></i>
+                </div>
+                <div class="live_emition">
 
+                    <div class="circle"></div>
+                    <p>Live</p>
+                </div>
+            </div>
+        </div> 
+        <audio class="player__audio" controls id="audio" autoplay="autoplay">
+            <source src="http://stream.zeno.fm/vkn46n2u4f0uv" type="audio/mpeg"/>
+        </audio>
+    </div>
+    
 
     
 
