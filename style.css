@@ -104,33 +104,29 @@ body {
 
 /* imagen emision */
 .cont_emision{
-  width: 250px;
-  height: 250px;
-  margin: 30px auto;
+  width: 350px;
+  margin: 20px  auto;
+  background: #a71931;
 }
 
 .cont_emision .emi{
   background: url(emision.jpg)no-repeat center center/cover;
-  width: 100%;
-  height: 100%;
+  width: 350px;
+  height: 300px;
   display: flex;
   justify-content: space-between;
-}
-.cont_emision .emi i{
-  font-size: 100px;
-  color: #242424;
 }
 
 .cont_emision .emi  .emition{
   display: flex;
   justify-content: center;
-  
+  width: 100px;
   height: 47px;
+  
 }
 .cont_emision .emi  .emition .circle{
   
   width: 5px;
-
   height: 5px;
   border-radius: 50%;
   background: green;  
@@ -158,11 +154,14 @@ body {
   }
 }
 
+
 .cont_emision .emi  .emition p{
   
   font-size: 25px;
   padding: 5px;
 }
+
+
 
 
 footer{
